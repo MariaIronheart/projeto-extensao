@@ -1,0 +1,37 @@
+
+.menu{
+    background-color: rgba(136, 171, 247, 0.562);
+    height: 100px;
+    flex: 1;
+    font-family: 'Lucida Sans', sans-serif;
+    text-align: center;
+    padding: 20px 0;
+    justify-content: space-between;
+}
+
+.menu .img-inicial{
+    width: 100px;
+    height: 100px;
+    position:absolute;
+	left:85%;
+	
+    
+}
+
+
+
+
+.div1 {
+    color:black;
+    background-color: rgba(136, 171, 247, 0.562);
+    font-family: 'Lucida Sans', sans-serif;
+    font-weight: 500;
+    
+}
+
+.div1 h1{
+    color: rgb(12, 8, 211);
+    padding-left: 100px;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 40px;
+}

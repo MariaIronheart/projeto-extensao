@@ -4,6 +4,7 @@ const quizQuestions = [
       question: "Qual o significa de 'Libras'?",
       options: ["Paris", "London", "Berlin", "Rome"],
       correctAnswer: "Paris"
+      
     },
     {
       question: "Which planet is known as the Red Planet?",
@@ -34,6 +35,7 @@ const quizQuestions = [
   
   // Function to display a question and its options
   function displayQuestion() {
+    
     const currentQuestion = quizQuestions[currentQuestionIndex];
     const questionText = document.getElementById("question-text");
     const answerButtons = document.getElementById("answer-buttons");

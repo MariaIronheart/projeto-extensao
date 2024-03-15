@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
 }
 
 a {
@@ -21,7 +21,7 @@ ul {
     list-style: none;
 }
 
-html { 
+html {
     font-family: Lato, sans-serif;
 
 }
@@ -35,11 +35,12 @@ nav {
     margin: auto;
     padding: 1.5rem 6rem;
     list-style: none;
-
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
 }
 
 main {
@@ -48,7 +49,7 @@ main {
 }
 
 footer {
-    background-color: #74E291;
+    background-color: #59B4C3;
 }
 
 .menu {
@@ -57,15 +58,24 @@ footer {
     gap: 2rem;
 }
 
-.vamos-saber{
-    font-size: 25px;
+.vamos-saber {
+    font-size: 35px;
     font-weight: bold;
-    justify-items: center;
+    justify-items: left;
     margin: auto;
-    max-width: 1500px;
+    max-width: 900px;
     gap: 2rem;
     text-align: center;
-    color: #211C6A;
+    color: #f4f800;
+    background-color: #59b5c37a;
+    height: 70px;
+    padding-top: 10px;
+    border-radius: 15px;
+    border-width: thick;
+    border-style: double;
+    border-color: #59b5c3;
+
+
 }
 
 .primeiro-conteudo {
@@ -82,6 +92,30 @@ footer {
 
 }
 
+
+.primeiro-titulo h1 {
+    color: #59B4C3;
+    font-size: 50px;
+    background-color: rgba(250, 234, 7, 0.438);
+    width: 580px;
+    height: 150px;
+    padding-top: 7px;
+    padding-left: 45px;
+    margin-left: -50px;
+    border-radius: 200px;
+    border-width: thick;
+    border-style: outset;
+    border-color: #59b5c3;
+}
+
+.primeiro-titulo p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -15px;
+
+}
+
+
 .segundo-conteudo {
     max-width: 1500px;
     display: flex;
@@ -92,3 +126,105 @@ footer {
     padding: 6rem;
 }
 
+.segundo-conteudo h1 {
+    color: #0fa6bd;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 850;
+}
+
+.segundo-conteudo p {
+    font-size: 18px;
+    font-weight: 550;
+
+}
+
+.texto-final h2 {
+    color: #0fa6bd;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.texto-final {
+    font-size: 18px;
+    font-weight: 550;
+    
+
+}
+
+span {
+    color: #67b7c4;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.voce-sabia {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    gap: 1.5rem;
+    padding: 6rem;
+    font-size: 20px;
+    font-weight: 550;
+    
+}
+
+
+.img-dic {
+    margin-left: 25px;
+    padding-top: 40px;
+
+}
+
+
+.botao-dic {
+    
+    background: #01b2f8;
+    color: #fdf900;
+    align-items: center;
+    border: thick;
+    border-radius: 5px;
+    position: relative;
+    height: 80px;
+    width: 400px;
+    font-size: 1.6em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;
+    margin-left: 150px;
+    font-family: 'Lucida Sans', sans-serif;
+    
+}
+
+button:hover {
+    background: #f7de00;
+    color: #01b2f8;
+}
+
+button:before,
+button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 5px;
+    width: 0;
+    background: #01b2f8;
+    transition: 400ms ease all;
+}
+
+button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+button:hover:before,
+button:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}

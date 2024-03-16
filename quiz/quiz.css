@@ -22,10 +22,12 @@
     .container {
         width: 90%;
         padding: 0;
+        
     }
 
     .column {
         margin-left: 4%;
+        
     }
 
     .column:first-child {
@@ -43,6 +45,7 @@
 
     .one-third.column {
         width: 30.6666666667%;
+        
     }
 
     .two-thirds.column {
@@ -117,7 +120,7 @@ h4 {
 }
 
 .questions_box {
-    background-color: #ffffff;
+    background-color: rgba(133, 133, 133, 0.41);
     padding: 60px;
     text-align: left;
     max-width: 960px;
@@ -126,7 +129,7 @@ h4 {
 .button {
     font-family: 'Lucida Sans', sans-serif;
     margin: 40px 0 0 0;
-    float: right;
+    
     cursor: pointer;
 
     font-size: 1em;
@@ -160,7 +163,9 @@ h4 {
 #question-5,
 #question-6 {
     display: none;
+    flex: 1;
 }
+
 
 #progress_bar {
     background-color: #049c18;

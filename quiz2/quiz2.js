@@ -1,4 +1,4 @@
-// Define an array of quiz questions
+
 const quizQuestions = [
     {
       question: "Qual o significa de 'Libras'?",
@@ -18,22 +18,22 @@ const quizQuestions = [
     }
   ];
   
-  // Variables to track quiz state
+ 
   let currentQuestionIndex = 0;
   let score = 0;
   let timeLeft = 120;
   let timerInterval;
   
   
-  // Function to start the quiz
+  
   function startQuiz() {
-    // Hide the start button and display the first question
+ 
     document.getElementById("start-button").style.display = "none";
     displayQuestion();
     startTimer();
   }
   
-  // Function to display a question and its options
+  
   function displayQuestion() {
     
     const currentQuestion = quizQuestions[currentQuestionIndex];

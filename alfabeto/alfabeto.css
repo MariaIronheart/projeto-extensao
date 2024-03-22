@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
 }
 
 a {
@@ -21,7 +21,7 @@ ul {
     list-style: none;
 }
 
-html { 
+html {
     font-family: Lato, sans-serif;
 
 }
@@ -35,11 +35,12 @@ nav {
     margin: auto;
     padding: 1.5rem 6rem;
     list-style: none;
-
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
 }
 
 main {
@@ -47,9 +48,6 @@ main {
     flex-direction: column;
 }
 
-footer {
-    background-color: #74E291;
-}
 
 .menu {
     display: flex;
@@ -57,37 +55,15 @@ footer {
     gap: 2rem;
 }
 
-.vamos-saber{
-    font-size: 25px;
-    font-weight: bold;
-    justify-items: center;
-    margin: auto;
-    max-width: 1500px;
-    gap: 2rem;
-    text-align: center;
-    color: #211C6A;
-}
 
-.primeiro-conteudo {
-    max-width: 1500px;
-    height: 60vh;
+.container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 15rem;
     align-items: center;
-    padding: 8rem;
-    margin: auto;
-    background-color: #fdffce;
-
+    margin-bottom: 20px; /* Espaçamento entre cada imagem e texto */
 }
-
-.segundo-conteudo {
-    max-width: 1500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: auto;
-    gap: 1.5rem;
-    padding: 6rem;
+.imagem {
+    flex: 1; /* Para as imagens ocuparem metade da largura da tela */
+}
+.texto {
+    flex: 1; /* Para os textos ocuparem metade da largura da tela */
 }

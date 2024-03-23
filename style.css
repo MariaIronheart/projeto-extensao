@@ -173,7 +173,7 @@ span {
 
 
 .img-dic {
-    margin-left: 25px;
+    margin: auto;
     padding-top: 40px;
 
 }
@@ -194,7 +194,7 @@ span {
     cursor: pointer;
     transition: 800ms ease all;
     outline: none;
-    margin-left: 150px;
+    margin-left: 300px;
     font-family: 'Lucida Sans', sans-serif;
     
 }

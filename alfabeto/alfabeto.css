@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    
+
 }
 
 a {
@@ -21,7 +21,7 @@ ul {
     list-style: none;
 }
 
-html { 
+html {
     font-family: Lato, sans-serif;
 
 }
@@ -35,11 +35,12 @@ nav {
     margin: auto;
     padding: 1.5rem 6rem;
     list-style: none;
-
+    font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
 }
 
 main {
@@ -47,6 +48,7 @@ main {
     flex-direction: column;
 }
 
+<<<<<<< HEAD:styleMary.css
 footer {
     background-color: #74E291;
     display: flex;
@@ -56,6 +58,8 @@ footer {
     max-width: 1500px;
     gap: 5rem;
 }
+=======
+>>>>>>> 401b2958b60627e707f458d6e1b03473e858705a:alfabeto/alfabeto.css
 
 .menu {
     display: flex;
@@ -63,6 +67,7 @@ footer {
     gap: 2rem;
 }
 
+<<<<<<< HEAD:styleMary.css
 .vamos-saber{
     font-size: 30px;
     font-weight: bold;
@@ -81,20 +86,27 @@ footer {
     border-style: double;
     border-color: #59b5c3;
 }
+=======
+>>>>>>> 401b2958b60627e707f458d6e1b03473e858705a:alfabeto/alfabeto.css
 
-.primeiro-conteudo {
-    max-width: 1500px;
-    height: 60vh;
+.container {
     display: flex;
+<<<<<<< HEAD:styleMary.css
     flex-direction: row;
     justify-content: space-between;
     gap: 13rem;
+=======
+>>>>>>> 401b2958b60627e707f458d6e1b03473e858705a:alfabeto/alfabeto.css
     align-items: center;
-    padding: 8rem;
-    margin: auto;
-    background-color: #fdffce;
-
+    margin-bottom: 20px; /* Espaçamento entre cada imagem e texto */
 }
+.imagem {
+    flex: 1; /* Para as imagens ocuparem metade da largura da tela */
+}
+.texto {
+    flex: 1; /* Para os textos ocuparem metade da largura da tela */
+}
+<<<<<<< HEAD:styleMary.css
 
 .segundo-conteudo {
     max-width: 1500px;
@@ -250,3 +262,5 @@ button:hover:after {
 .agradecimentos {
     
 }
+=======
+>>>>>>> 401b2958b60627e707f458d6e1b03473e858705a:alfabeto/alfabeto.css

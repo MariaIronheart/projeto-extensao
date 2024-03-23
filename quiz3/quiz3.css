@@ -1,3 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-color: #fdffce;
+}
+
+ul {
+    list-style: none;
+}
+
+html {
+    font-family: Lato, sans-serif;
+
+}
+
+header {
+    background-color: #59B4C3;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 6rem;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+
+
+/*-----------*/
+
+
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +78,7 @@ body {
     max-width: 600px;
     margin: 100px auto 0;
     border-radius: 20px;
-    padding: 30px;
+    padding: 20px;
 }
 
 .app h1{

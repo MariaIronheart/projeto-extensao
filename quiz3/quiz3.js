@@ -31,10 +31,10 @@ const questions = [
 {
     question: "Qual das afirmações abaixo é verdadeira ?",
     answers:[
-        {text:"Expressões faciais e corporais não agregam nenhum valor à língua.", correct: false },
+        {text:"Expressões faciais e corporais NÃO agregam nenhum valor à língua.", correct: false },
         {text:"Colocar legenda em vídeos já resolve a questão da acessibilidade.", correct: false },
-        {text:"A profissão de interprete não é regulamentada.", correct: false },
-        {text:"Quem fala Libras, além de outra língua, é bilíngue.", correct: true },
+        {text:"A profissão de interprete NÃO é regulamentada.", correct: false },
+        {text:"Quem fala Libras além de outra língua, é bilíngue.", correct: true },
             ]
 },
 ];
@@ -51,7 +51,7 @@ let score = 0;
 function startQuiz(){
     currentQuestionIndex=0;
     score=0;
-    nextButton.innerHTML = "Next";
+    nextButton.innerHTML = "Próxima pergunta";
     showQuestion();
 }
 
@@ -69,7 +69,7 @@ function showQuestion(){
 
     
 
-    if (!!imageSrc && !!imageAlt) {
+    /*if (!!imageSrc && !!imageAlt) {
         const imgTag = document.createElement("img");
         imgTag.src="letraA.png";
         imgTag.width="500";
@@ -83,14 +83,14 @@ function showQuestion(){
         imgQuestion.height="500";
         imgQuestion.alt=imageAlt;        
         */
-    } else {
+    /*} else {
         /*
         imgQuestion.width="0";
         imgQuestion.height="0";
         imgQuestion.alt="";
         */
-        document.getElementById("imageContainer").innerHTML = '';
-    }
+     /*   document.getElementById("imageContainer").innerHTML = '';
+    }*/
 
     currentQuestion.answers.forEach(answer => {
             const button = document.createElement("button");
@@ -136,9 +136,9 @@ function showScore(){
     nextButton.innerHTML = "Tente Novamente!";
     nextButton.style.display = "block";
     if(score<=2){
-        questionElement.innerHTML = `Você acertou ${score} das ${questions.length} questões!<br/> Estude mais em nossa página e tente novamente!`;
+        questionElement.innerHTML = `Você acertou ${score} das ${questions.length} questões!<br/> <br/>Estude mais em nossa página e tente novamente!`;
     } else{
-        questionElement.innerHTML = `Você acertou ${score} das ${questions.length} questões!<br/> Parabéns pelo esforço! `;
+        questionElement.innerHTML = `Você acertou ${score} das ${questions.length} questões!<br/><br/> Parabéns pelo esforço! `;
         
     }
         

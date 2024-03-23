@@ -49,6 +49,12 @@ main {
 
 footer {
     background-color: #74E291;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    max-width: 1500px;
+    gap: 5rem;
 }
 
 .menu {
@@ -58,14 +64,22 @@ footer {
 }
 
 .vamos-saber{
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     justify-items: center;
     margin: auto;
-    max-width: 1500px;
+    max-width: 900px;
     gap: 2rem;
     text-align: center;
     color: #211C6A;
+
+    background-color: #59b5c37a;
+    height: 70px;
+    padding-top: 10px;
+    border-radius: 25px;
+    border-width: thick;
+    border-style: double;
+    border-color: #59b5c3;
 }
 
 .primeiro-conteudo {
@@ -74,7 +88,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 15rem;
+    gap: 13rem;
     align-items: center;
     padding: 8rem;
     margin: auto;
@@ -90,4 +104,149 @@ footer {
     margin: auto;
     gap: 1.5rem;
     padding: 6rem;
+}
+
+.primeiro-titulo h1 {
+    color: #59B4C3;
+    font-size: 30px;
+    background-color: rgba(247, 234, 51, 0.438);
+    width: 400px;
+    height: 100px;
+    padding-top: 7px;
+    padding-left: 45px;
+    margin-left: -50px;
+    border-radius: 200px;
+    border-width: thick;
+    border-style: outset;
+    border-color: #59b5c3;
+}
+
+    
+.primeiro-titulo p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -15px;
+
+}
+
+
+.segundo-conteudo h1 {
+    color: #0fa6bd;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 850;
+}
+
+.segundo-conteudo p {
+    font-size: 18px;
+    font-weight: 550;
+
+}
+
+
+.texto-final h2 {
+    color: #211C6A;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.texto-final {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+span {
+    color: #211C6A;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.voce-sabia {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.texto-voce-sabia {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: auto;
+    margin-left: 150px;
+   
+}
+
+.img-dic {
+    display: flex;
+    padding: 8rem;
+    margin-right: 200px;
+}
+
+.botao-dic {
+    
+    background: #01b2f8;
+    color: #fdf900;
+    align-items: center;
+    border: thick;
+    border-radius: 5px;
+    position: relative;
+    height: 60px;
+    width: 300px;
+    font-size: 1.5em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;;
+    font-family: 'Lucida Sans', sans-serif;
+    
+}
+
+.texto {
+    font-size: 25px;
+}
+
+button:hover {
+    background: #f9e84d;
+    color: #01b2f8;
+}
+
+button:before,
+button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 5px;
+    width: 0;
+    background: #01b2f8;
+    transition: 400ms ease all;
+}
+
+button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+button:hover:before,
+button:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.quem-somos {
+    gap: 10rem;
+    margin-right: 30px;
+    max-width: 300px;
+}
+
+.integrantes {
+
+}
+
+.agradecimentos {
+    
 }

@@ -1,0 +1,200 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    background-color: #fdffce;
+}
+
+ul {
+    list-style: none;
+}
+
+html { 
+    font-family: Lato, sans-serif;
+
+}
+
+header {
+    background-color: #59B4C3;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 6rem;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #74E291;
+    display: flex;
+    justify-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1500px;
+    gap: 15rem;
+  
+}
+
+
+
+
+
+.segundo-conteudo {
+    max-width: 1500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    gap: 1.5rem;
+    padding: 6rem;
+}
+
+
+
+
+.segundo-conteudo h1 {
+    color: #0fa6bd;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 850;
+}
+
+.segundo-conteudo p {
+    font-size: 18px;
+    font-weight: 550;
+
+}
+
+
+.texto-final h2 {
+    color: #211C6A;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.texto-final {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+span {
+    color: #211C6A;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+.voce-sabia {
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.texto-voce-sabia {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    margin: auto;
+    margin-left: 150px;
+   
+}
+
+.img-dic {
+    display: flex;
+    padding: 8rem;
+    margin-right: 200px;
+}
+
+.botao-dic {
+    
+    background: #01b2f8;
+    color: #fdf900;
+    align-items: center;
+    border: thick;
+    border-radius: 5px;
+    position: relative;
+    height: 60px;
+    width: 300px;
+    font-size: 1.5em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;;
+    font-family: 'Lucida Sans', sans-serif;
+    
+}
+
+.texto {
+    font-size: 25px;
+}
+
+button:hover {
+    background: #f9e84d;
+    color: #01b2f8;
+}
+
+button:before,
+button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 5px;
+    width: 0;
+    background: #01b2f8;
+    transition: 400ms ease all;
+}
+
+button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+button:hover:before,
+button:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+.quem-somos {
+    gap: 10rem;
+    margin-right: 30px;
+    max-width: 300px;
+    font-size: 17px;
+    font-weight: 550;
+}
+
+.integrantes {
+
+}
+
+.agradecimentos {
+    
+}
+

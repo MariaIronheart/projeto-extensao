@@ -1,27 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Varela+Round&display=swap');
+/*STYLE PADRÃO*/
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    
 }
 
 a {
     text-decoration: none;
-    color: #fff;
 }
 
 body {
     background-color: #fdffce;
+    
 }
 
 ul {
     list-style: none;
 }
 
-html {
+html { 
     font-family: Lato, sans-serif;
 
 }
@@ -35,12 +38,10 @@ nav {
     margin: auto;
     padding: 1.5rem 6rem;
     list-style: none;
-    font-size: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
 }
 
 main {
@@ -49,7 +50,13 @@ main {
 }
 
 footer {
-    background-color: #59B4C3;
+    background-color: #74E291;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    gap: 12rem;
+    font-size: 20px;
+  
 }
 
 .menu {
@@ -58,63 +65,88 @@ footer {
     gap: 2rem;
 }
 
-.vamos-saber {
-    font-size: 35px;
-    font-weight: bold;
-    justify-items: left;
-    margin: auto;
-    max-width: 900px;
-    gap: 2rem;
-    text-align: center;
-    color: #f4f800;
-    background-color: #59b5c37a;
-    height: 70px;
-    padding-top: 10px;
-    border-radius: 15px;
-    border-width: thick;
-    border-style: double;
-    border-color: #59b5c3;
 
 
-}
+/*STYLE PADRÃO*/
+/**/
+/*PRIMEIRA PARTE*/
 
 .primeiro-conteudo {
     max-width: 1500px;
-    height: 60vh;
+    height: 700px;
+    max-height: 700px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 15rem;
+    gap: 13rem;
     align-items: center;
     padding: 8rem;
     margin: auto;
-    background-color: #fdffce;
+    background: linear-gradient(45deg, #59B4C3,#74E291,#EFF396);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
 
 }
 
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
 
-.primeiro-titulo h1 {
-    color: #59B4C3;
-    font-size: 50px;
-    background-color: rgba(250, 234, 7, 0.438);
-    width: 580px;
-    height: 150px;
-    padding-top: 7px;
+
+.primeiro-conteudo-titulo h1 {
+    color: #016271;
+    font-size: 20px;
+    font-family: Valera Round, sans-serif;
+    background-color: rgba(255, 251, 0, 0.779);
+    width: 300px;
+    height: 80px;
+    padding-top: 10px;
     padding-left: 45px;
-    margin-left: -50px;
     border-radius: 200px;
     border-width: thick;
     border-style: outset;
     border-color: #59b5c3;
+   
 }
 
-.primeiro-titulo p {
-    font-size: 20px;
+.primeiro-conteudo-titulo p {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+    
+}
+
+.vamos-saber{
+    font-size: 30px;
     font-weight: bold;
-    margin-left: -15px;
-
+    justify-items: center;
+    margin: auto;
+    max-width: 800px;
+    gap: 2rem;
+    text-align: center;
+    color: #211C6A;
+    
+    height: 70px;
+    padding-top: 10px;
+    
+    /*border-radius: 25px;
+    border-width: thick;
+    border-style: double;
+    border-color: #59b5c3;
+    background-color: #59b5c37a;
+    */
+    margin-top: 50px;
 }
 
+/*SEGUNDO CONTEÚDO*/
 
 .segundo-conteudo {
     max-width: 1500px;
@@ -126,105 +158,53 @@ footer {
     padding: 6rem;
 }
 
-.segundo-conteudo h1 {
-    color: #0fa6bd;
+.segundo-conteudo-primeiro{
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+    margin-left: 20px;
+}
+
+.segundo-conteudo-texto {
+    padding: 1rem;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.segundo-conteudo-dois {
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+    margin-left: 20px;
+}
+.historia {
+    text-align: center;
+    color: #211C6A;
+    font-family: Valera Round, sans-serif;
     font-size: 30px;
-    font-style: oblique;
-    font-weight: 850;
 }
 
-.segundo-conteudo p {
+.segundo-conteudo-tres{
+    display: flex;
+    flex-direction: row;
+    max-width: 1500px;
+    margin-left: 20px;
+    padding: 1rem;
     font-size: 18px;
-    font-weight: 550;
+    font-weight: 400;
+    text-align: justify;
 
 }
 
-.texto-final h2 {
-    color: #0fa6bd;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.texto-final {
-    font-size: 18px;
-    font-weight: 550;
-    
-
+.curiosidades {
+    text-align: center;
+    color: #211C6A;
+    font-family: Valera Round, sans-serif;
+    font-size: 30px;
 }
 
 span {
-    color: #67b7c4;
-    font-size: 20px;
-    font-weight: 550;
-}
-
-.voce-sabia {
-    max-width: 1500px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: auto;
-    gap: 1.5rem;
-    padding: 6rem;
-    font-size: 20px;
-    font-weight: 550;
-    
-}
-
-
-.img-dic {
-    margin: auto;
-    padding-top: 40px;
-
-}
-
-
-.botao-dic {
-    
-    background: #01b2f8;
-    color: #fdf900;
-    align-items: center;
-    border: thick;
-    border-radius: 5px;
-    position: relative;
-    height: 80px;
-    width: 400px;
-    font-size: 1.6em;
-    padding: 0 2em;
-    cursor: pointer;
-    transition: 800ms ease all;
-    outline: none;
-    margin-left: 300px;
-    font-family: 'Lucida Sans', sans-serif;
-    
-}
-
-button:hover {
-    background: #f7de00;
-    color: #01b2f8;
-}
-
-button:before,
-button:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 5px;
-    width: 0;
-    background: #01b2f8;
-    transition: 400ms ease all;
-}
-
-button:after {
-    right: inherit;
-    top: inherit;
-    left: 0;
-    bottom: 0;
-}
-
-button:hover:before,
-button:hover:after {
-    width: 100%;
-    transition: 800ms ease all;
+    color: #211C6A;
+    font-weight: bold;
 }

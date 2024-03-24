@@ -43,6 +43,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+.nav a {
+    text-decoration: none;
+}
 
 main {
     display: flex;
@@ -50,13 +53,9 @@ main {
 }
 
 footer {
-    background-color: #74E291;
     display: flex;
-    justify-content: space-around;
-    padding: 2rem;
-    gap: 12rem;
-    font-size: 20px;
-  
+    background-color: #74E291;
+    padding: 20px;
 }
 
 .menu {
@@ -207,4 +206,94 @@ footer {
 span {
     color: #211C6A;
     font-weight: bold;
+}
+
+.voce-sabia {
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
+    gap: 1rem;
+    text-align: center;
+    margin-left: 180px;
+    margin-bottom: 30px;
+}
+.texto-voce-sabia {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+
+}
+
+
+.botao-dic {
+    
+    background: #01b2f8;
+    color: #fdf900;
+    align-items: center;
+    border: thick;
+    border-radius: 5px;
+    position: relative;
+    height: 60px;
+    width: 300px;
+    font-size: 1.5em;
+    padding: 0 2em;
+    cursor: pointer;
+    transition: 800ms ease all;
+    outline: none;;
+    font-family: 'Lucida Sans', sans-serif;
+    
+}
+
+.texto {
+    font-size: 25px;
+}
+
+button:hover {
+    background: #1a00aa;
+    color: #01b2f8;
+}
+
+button:before,
+button:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 5px;
+    width: 0;
+    background: #01b2f8;
+    transition: 400ms ease all;
+}
+
+button:after {
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+
+button:hover:before,
+button:hover:after {
+    width: 100%;
+    transition: 800ms ease all;
+}
+
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-evenly;
+    padding: 20px;
+    max-width: 1500px;
+    gap: 5rem;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+
+.integrantes {
+    width: 800px;
+    color: #00103d;
+    
 }

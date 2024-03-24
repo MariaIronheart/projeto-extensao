@@ -16,7 +16,21 @@ a {
 }
 
 body {
-    background-color: #fdffce;
+    background: linear-gradient(70deg, #59B4C3,#74E291,#EFF396);
+    background-size: 300% 300%;
+    animation: colors 15s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
 
 ul {
@@ -59,6 +73,14 @@ footer {
     gap: 5rem;
 }
 
+h1 {
+    padding: 25px;
+    color: #1c0077;
+    font-size: 20px;
+    font-family: Valera Round, sans-serif;
+    text-align: center;
+}
+
 .menu {
     display: flex;
     flex-direction: row;
@@ -66,4 +88,43 @@ footer {
 }
 
 /* STYLE PADRÃO FIM */ 
+
+.alfabeto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1500px;
+  }
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    max-height: 400px;
+    width: 400px;
+    max-width: 400px;
+    text-align: justify;
+    margin-left: auto;
+}
+
+.texto {
+    width: 250px;
+}
+
+.alfabeto-numerico {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1500px;
+}
+
+.imagem-a {
+    padding: 23px;
+    width: 250px;
+    text-align: justify;
+}
+
 

@@ -56,3 +56,61 @@
   #prev-button {
     transform: rotate(180deg);
   }
+
+  html { 
+    font-family: Lato, sans-serif;
+
+}
+
+header {
+    background-color: #59B4C3;
+}
+
+nav {
+    max-width: 1120px;
+    margin: auto;
+    padding: 1.5rem 6rem;
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #74E291;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    max-width: 1500px;
+    gap: 5rem;
+}
+
+h1 {
+    padding: 25px;
+    color: #1c0077;
+    font-size: 20px;
+    font-family: Valera Round, sans-serif;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+ul {
+  list-style: none;
+}
+
+a { 
+  text-decoration: none;
+}

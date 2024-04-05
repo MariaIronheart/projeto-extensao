@@ -7,7 +7,7 @@
 
 :root{
     --border: 0.18rem solid rgba(241, 198, 7, 0.712);
-    --border2: 0.1rem solid rgb(255, 218, 51);
+    --border2: 0.1rem solid rgb(205, 201, 62);
     font-size: 18px;
 }
 
@@ -47,12 +47,12 @@ header{
 
 .navbar a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 218, 51);
 
 }
 
 .navbar a:hover{
-    color: #fdf900;
+    color: rgb(205, 201, 62);
     border-bottom: var(--border2);
     border-top: var(--border2);
     padding-top: 0.3rem;
@@ -60,9 +60,11 @@ header{
 }
 
 .home-content{
-    background: url("./imagens/libraslove3.jpg");
+    background-color: #000000;
     max-width:2000px;
     height:800px;
+    background: url("./imagens/libraslove3.jpg");
+    opacity: 0.89;
     
     
 }
@@ -124,7 +126,7 @@ footer {
 
 
 .primeiro-conteudo-titulo h1 {
-    color: #eeff00;
+    color: #ffffff;
     font-size: 70px;
     
     text-align: center;

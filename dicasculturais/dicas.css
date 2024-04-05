@@ -2,51 +2,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Rubik+Scribble&display=swap');
 
 
+:root{
+    --border: 0.18rem solid rgba(241, 198, 7, 0.712);
+    --border2: 0.1rem solid rgb(205, 201, 62);  
+}
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: 0.2s linear;
+}
+
+header{
     
+    background-color: #59B4C3;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    border-bottom: var(--border);
+    font-family: Lato, sans-serif;
+    
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+    padding-left: 110px;
+    max-width: 1500px;
+    font-size: 1.34rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgb(255, 218, 51);
+
+}
+
+.navbar a:hover{
+    color: rgb(205, 201, 62);
+    border-bottom: var(--border2);
+    border-top: var(--border2);
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
 }
 
 p {
     font-family: Inconsolata, sans-serif;
 }
 
-a {
-    text-decoration: none;
-}
-
 body {
-    background-color: #ffffff;
-    
-}
-
-ul {
-    list-style: none;
+    background-color: #ffffff;  
 }
 
 html { 
     font-family: Lato, sans-serif;
-
-}
-
-header {
-    background-color: #59B4C3;
-}
-
-nav {
-    max-width: 1120px;
-    margin: auto;
-    padding: 1.5rem 6rem;
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav a {
-    color: #fff;
 }
 
 main {

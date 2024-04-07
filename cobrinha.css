@@ -118,15 +118,13 @@ header{
 .home-content{
     
     background-color: #000000;
-    width: 1800px;
-    height:900px;
+    height:100vh;
     background-repeat: no-repeat;
     background-size: cover;
-
-    background: url("./imagens/libraslove3.jpg");
+    background-image: url("./imagens/libraslove3.jpg");
+    background-size: cover;
     opacity: 0.89;
-    
-    
+    width: 100%;
 }
 
 

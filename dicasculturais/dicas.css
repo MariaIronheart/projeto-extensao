@@ -25,7 +25,6 @@ header{
     right: 0;
     z-index: 99;
     border-bottom: var(--border);
-    font-family: Lato, sans-serif;
     
 }
 
@@ -72,11 +71,12 @@ main {
     flex-direction: column;
     align-items: center;
 }
-
 footer {
     display: flex;
-    background-color: #74E291;
+    background-color: #59B4C3;
     padding: 20px;
+    justify-content: center;
+    padding: 2rem;
 }
 
 .menu {
@@ -185,10 +185,38 @@ footer {
 }
 
 .trailer-dois {
-    margin-top: 12px;
+    margin-top: 12x;
     justify-content: center;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-evenly;
+    padding: 20px;
+    max-width: 1800px;
+    gap: 5rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.quem-somos p{
+    width: 500px; 
+}
+
+.agradecimentos p{
+    width: 400px; 
+}
+
+.integrantes {
+    width: 200px;
+    color: #00103d;
+    text-decoration: none;
+    font-weight: bold;
 }
 

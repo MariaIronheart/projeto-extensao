@@ -16,7 +16,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    font-family: Lato, sans-serif;
     transition: 0.2s linear;
 }
 
@@ -42,6 +41,7 @@ header{
     max-width: 1500px;
     font-size: 1.2rem;
 }
+
 
 .navbar a {
     text-decoration: none;
@@ -76,13 +76,10 @@ body {
 }
 
 footer {
-    background-color: #74E291;
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2rem;
-    max-width: 1500px;
-    gap: 5rem;
+    background-color: #59B4C3;
+    padding: 20px;
+    justify-content: center;
 }
 
 h1 {
@@ -132,6 +129,7 @@ h1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin: auto;
     max-width: 1500px;
 }
 
@@ -140,5 +138,34 @@ h1 {
     width: 300px;
     text-align: justify;
 }
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    justify-content: space-evenly;
+    padding: 20px;
+    max-width: 1800px;
+    gap: 5rem;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.quem-somos p{
+    width: 500px; 
+}
+
+.agradecimentos p{
+    width: 400px; 
+}
+
+.integrantes {
+    width: 200px;
+    color: #00103d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
 
 

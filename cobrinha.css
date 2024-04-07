@@ -5,6 +5,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
 /*STYLE PADRÃO*/
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}   
+
+/*-------------------RESET CSS ----------------------*/
+
+
+
+
+
+
 :root{
     --border: 0.18rem solid rgba(241, 198, 7, 0.712);
     --border2: 0.1rem solid rgb(205, 201, 62);
@@ -60,9 +116,14 @@ header{
 }
 
 .home-content{
+    
     background-color: #000000;
-    max-width:2000px;
-    height:800px;
+    width: 1800px;
+    height:900px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
     background: url("./imagens/libraslove3.jpg");
     opacity: 0.89;
     
@@ -80,12 +141,14 @@ body {
 main {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 footer {
     display: flex;
     background-color: #74E291;
     padding: 20px;
+    justify-content: center;
 }
 
 /*STYLE PADRÃO*/
@@ -239,7 +302,6 @@ span {
     max-width: 1200px;
     gap: 1rem;
     text-align: center;
-    margin-left: 350px;
     margin-bottom: 30px;
 }
 
@@ -313,13 +375,9 @@ button:hover:after {
     justify-content: space-evenly;
     padding: 20px;
     max-width: 1800px;
-   
     gap: 5rem;
     font-size: 18px;
     font-weight: 400;
-
-    margin-left: 320px;
-
 }
 
 .quem-somos p{
@@ -335,6 +393,5 @@ button:hover:after {
     color: #00103d;
     text-decoration: none;
     font-weight: bold;
-
 }
 

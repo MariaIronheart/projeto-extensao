@@ -116,14 +116,16 @@ h1 {
     align-items: center;
     height: 400px;
     max-height: 400px;
-    width: 400px;
-    max-width: 400px;
+    width: 500px;
+    
+    max-width: 2000px;
     text-align: justify;
     margin-left: auto;
 }
 
 .texto {
-    width: 250px;
+    width: 300px;
+    text-align: justify;
 }
 
 .alfabeto-numerico {
@@ -134,8 +136,8 @@ h1 {
 }
 
 .imagem-a {
-    padding: 23px;
-    width: 250px;
+    
+    width: 300px;
     text-align: justify;
 }
 

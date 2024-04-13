@@ -58,9 +58,10 @@ header{
 }
 
 body {
-    background: linear-gradient(70deg, #59B4C3,#74E291,#EFF396);
+    /*background: linear-gradient(70deg, #59B4C3,#74E291,#EFF396);
     background-size: 300% 300%;
-    animation: colors 15s ease infinite;
+    animation: colors 15s ease infinite;*/
+    background-color: white;
 }
 
 @keyframes colors {

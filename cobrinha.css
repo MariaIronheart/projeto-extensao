@@ -396,3 +396,66 @@ button:hover:after {
     font-weight: bold;
 }
 
+.parametros-imagem {
+    filter: drop-shadow(0 0 1rem rgb(112, 126, 136));
+
+}
+
+.parametros {
+    max-width: 1200px;
+    text-align: justify;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    align-items: center;
+    margin: auto;
+}
+
+.parametros h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.primeiro-parametros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1100px;
+}
+
+.parametros-titulo {
+    max-width: 600px;
+    padding-bottom: 4rem;
+    padding-right: 4rem;
+}
+
+.parametros-lista {
+    background-color: #68f7c0;
+    max-height: 180px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: #68f7c0;
+}
+
+.segundo-parametros-texto {
+    display: flex;
+    flex-direction: column;
+    max-width: 550px;
+}
+
+.segundo-parametros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1100px;
+}
+
+.imagem-um {
+    filter: drop-shadow(0 0 1rem rgb(119, 142, 182));
+    padding-right: 1rem;
+}
+
+.imagem-dois {
+    filter: drop-shadow(0 0 1rem rgb(119, 182, 181));
+    padding-left: 1rem;
+}

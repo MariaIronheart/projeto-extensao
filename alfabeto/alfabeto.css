@@ -40,6 +40,7 @@ header{
     padding-left: 110px;
     max-width: 1500px;
     font-size: 1.2rem;
+    font-family: OCR A Std, monospace;;
 }
 
 
@@ -76,12 +77,6 @@ body {
     }
 }
 
-footer {
-    display: flex;
-    background-color: #59B4C3;
-    padding: 20px;
-    justify-content: center;
-}
 
 h1 {
     padding: 25px;
@@ -140,6 +135,14 @@ h1 {
     text-align: justify;
 }
 
+footer {
+    display: flex;
+    background-color: #59B4C3;
+    padding: 20px;
+    justify-content: center;
+    font-family: Valera Round, sans-serif;
+}
+
 .rodape {
     display: flex;
     flex-direction: row;
@@ -153,7 +156,12 @@ h1 {
 }
 
 .quem-somos p{
-    width: 500px; 
+    width: 600px; 
+}
+
+.quem-somos h3{
+    font-weight: bold;
+    color: rgb(241, 198, 7);
 }
 
 .agradecimentos p{
@@ -161,12 +169,15 @@ h1 {
 }
 
 .integrantes {
-    width: 200px;
-    color: #00103d;
+    width: 300px;
     text-decoration: none;
-    font-weight: bold;
+    
+    font-weight:bold;
+    color: rgb(241, 198, 7);
 }
 
-
-
-
+.nome a{
+    text-decoration: none;
+    color: #000;
+    
+}

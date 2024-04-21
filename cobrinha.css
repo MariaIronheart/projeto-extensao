@@ -99,6 +99,7 @@ header{
     padding-left: 110px;
     max-width: 1500px;
     font-size: 1.2rem;
+    font-family: OCR A Std, monospace;
 }
 
 .navbar a {
@@ -145,12 +146,7 @@ main {
     align-items: center;
 }
 
-footer {
-    display: flex;
-    background-color: #74E291;
-    padding: 20px;
-    justify-content: center;
-}
+
 
 /*STYLE PADRÃO*/
 /**/
@@ -368,6 +364,15 @@ button:hover:after {
     transition: 800ms ease all;
 }
 
+/* ---- FIM DA PÁGINA ---- */
+
+footer {
+    display: flex;
+    background-color: #59B4C3;
+    padding: 20px;
+    justify-content: center;
+    font-family: Valera Round, sans-serif;
+}
 
 .rodape {
     display: flex;
@@ -382,7 +387,12 @@ button:hover:after {
 }
 
 .quem-somos p{
-    width: 500px; 
+    width: 600px; 
+}
+
+.quem-somos h3{
+    font-weight: bold;
+    color: rgb(241, 198, 7);
 }
 
 .agradecimentos p{
@@ -390,11 +400,19 @@ button:hover:after {
 }
 
 .integrantes {
-    width: 200px;
-    color: #00103d;
+    width: 300px;
     text-decoration: none;
-    font-weight: bold;
+    
+    font-weight:bold;
+    color: rgb(241, 198, 7);
 }
+
+.nome a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
 
 .parametros-imagem {
     filter: drop-shadow(0 0 1rem rgb(112, 126, 136));

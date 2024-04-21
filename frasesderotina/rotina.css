@@ -46,6 +46,7 @@ header{
 .navbar a {
     text-decoration: none;
     color: rgb(255, 218, 51);
+    font-family: OCR A Std, monospace;
 
 }
 
@@ -76,17 +77,10 @@ body {
     }
 }
 
-footer {
-    display: flex;
-    background-color: #59B4C3;
-    padding: 20px;
-    justify-content: center;
-}
-
 h1 {
-    padding: 25px;
-    color: #1c0077;
-    font-size: 20px;
+    padding: 35px;
+    color: #0847bd;
+    font-size: 30px;
     font-family: Valera Round, sans-serif;
     text-align: center;
 }
@@ -99,45 +93,37 @@ h1 {
 
 /* STYLE PADRÃO FIM */ 
 
-.alfabeto {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: auto;
-    max-width: 1500px;
-  }
-
 .container {
+    
     margin: auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    height: 400px;
-    max-height: 400px;
-    width: 500px;
+    align-items:center;
+    height: 500px;
+    width: 900px;
+    padding-top: 30px;
     
-    max-width: 2000px;
-    text-align: justify;
-    margin-left: auto;
+    
+    
 }
 
-.texto {
-    width: 300px;
-    text-align: justify;
+.legenda{
+    
+    padding: 25px;
+    color: #0847bd;
+    font-size: 20px;
+    font-family: Valera Round, sans-serif;
+    text-align: center;
+    font-weight: bold;
 }
 
-.alfabeto-numerico {
+
+footer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    margin: auto;
-    max-width: 1500px;
-}
-
-.imagem-a {
-    
-    width: 300px;
-    text-align: justify;
+    background-color: #59B4C3;
+    padding: 20px;
+    justify-content: center;
+    font-family: Valera Round, sans-serif;
 }
 
 .rodape {
@@ -153,7 +139,12 @@ h1 {
 }
 
 .quem-somos p{
-    width: 500px; 
+    width: 600px; 
+}
+
+.quem-somos h3{
+    font-weight: bold;
+    color: rgb(241, 198, 7);
 }
 
 .agradecimentos p{
@@ -161,12 +152,15 @@ h1 {
 }
 
 .integrantes {
-    width: 200px;
-    color: #00103d;
+    width: 300px;
     text-decoration: none;
-    font-weight: bold;
+    
+    font-weight:bold;
+    color: rgb(241, 198, 7);
 }
 
-
-
-
+.nome a{
+    text-decoration: none;
+    color: #000;
+    
+}

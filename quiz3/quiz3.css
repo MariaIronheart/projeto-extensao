@@ -14,7 +14,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    font-family: Lato, sans-serif;
+    
     transition: 0.2s linear;
 }
 
@@ -39,6 +39,7 @@ header{
     padding-left: 100px;
     max-width: 1500px;
     font-size: 1.2rem;
+    font-family: OCR A Std, monospace;
 }
 
 .navbar a {
@@ -67,6 +68,7 @@ header{
 
 body {
     background: #1a5ea6;
+    font-family: Georgia, serif;
 }
 
 .app{

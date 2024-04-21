@@ -79,10 +79,10 @@ body {
 
 
 h1 {
-    padding: 25px;
-    color: #1c0077;
-    font-size: 20px;
-    font-family: Lato, sans-serif;
+    padding: 35px;
+    color: #0847bd;
+    font-size: 30px;
+    font-family: Valera Round, sans-serif;
     text-align: center;
 }
 
@@ -118,7 +118,10 @@ h1 {
 
 .texto {
     width: 300px;
-    text-align: justify;
+    text-align: center;
+    font-family: Valera Round, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
 }
 
 .alfabeto-numerico {

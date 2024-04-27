@@ -38,7 +38,7 @@ header{
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 110px;
-    max-width: 1500px;
+    max-width: 100%;
     font-size: 1.2rem;
     font-family: OCR A Std, monospace;;
 }

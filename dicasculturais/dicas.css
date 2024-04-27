@@ -130,7 +130,9 @@ main {
 
 .sinopse-um {
     padding-left: 3rem;
-    width: 800px;
+    width: 600px;
+    margin-right: 2rem;
+    text-align: justify;
 }
 
 .trailer-um {
@@ -177,7 +179,9 @@ main {
 
 .sinopse-dois {
     padding-left: 3rem;
-    width: 800px;
+    width: 600px;
+    margin-right: 2rem;
+    text-align: justify;
 }
 
 .trailer-dois {
@@ -237,7 +241,7 @@ footer {
     text-align: justify;
     justify-content: space-evenly;
     padding: 20px;
-    max-width: 1800px;
+    max-width: 100%;
     gap: 5rem;
     font-size: 18px;
     font-weight: 400;

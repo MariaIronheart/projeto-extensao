@@ -1,14 +1,27 @@
 const questions = [
     {
         question: "Qual o significado de 'Libras'?",
-        imagem: "letraA.png",
-        imagemAlt: "Alt da Imagem",
         answers:[
             {text:"Lingua Brasileira de Sinais", correct: true },
-            {text:"Linguagem Nacional de Sinais", correct: false },
             {text:"Língua Sul-Americana de Sinais", correct: false },
             {text: "Língua Sinalizada do Brasil ", correct: false },
                 ]
+            
+},
+{
+    question: "Assinale qual a opção verdadeira:",
+    answers:[
+        {text:"Cada sinal pode ser feito com a mão dominante, ou pelas duas mãos dependendo do sinal!", correct: true },
+        {text:"Cada sinal tem uma mão pré-determinada para ser utilizada.", correct: false },
+            ]
+},
+{
+    question: "Qual dos parâmetros abaixo NÃO é considerado formativo?",
+    answers:[
+        {text:"Nacionalidade do comunicador.", correct: true },
+        {text:"Expressões facias e corporais.", correct: false },
+        {text:"Configuração da mão.", correct: false },
+            ]
 },
 {
     question: "Qual das afirmações abaixo é verdadeira?" ,
@@ -16,7 +29,7 @@ const questions = [
         {text:"Podemos utilizar Libras somente na América Latina.", correct: false },
         {text:"Libras é universal, podemos utilizar em qualquer país!", correct: false },
         {text:"Libras não é universal, é utilizada somente no Brasil.", correct: true },
-        {text:"Podemos utilizar Libras somente na região Sudeste.", correct: false },
+        
             ]
 },
 {

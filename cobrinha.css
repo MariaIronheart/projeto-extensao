@@ -420,12 +420,13 @@ footer {
 }
 
 .parametros {
-    max-width: 1200px;
+    max-width: 100%;
     text-align: justify;
     padding-top: 2rem;
     padding-bottom: 3rem;
     align-items: center;
     margin: auto;
+    background-color: red;
 }
 
 .parametros h1 {

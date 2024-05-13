@@ -144,6 +144,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #317b86a9;
 }
 
 
@@ -164,9 +165,6 @@ main {
     align-self: first baseline;
     
     margin: auto;
-    /*background: linear-gradient(45deg, #59B4C3, #74E291, #EFF396);*/
-    /*background-size: 300% 300%;*/
-    /*animation: colors 15s ease infinite;*/
 
 }
 
@@ -208,25 +206,25 @@ main {
 }
 
 .vamos-saber {
-    font-size: 30px;
-    font-weight: bold;
+    
     justify-items: center;
     margin: auto;
-    max-width: 800px;
+    
     gap: 2rem;
     text-align: center;
-    color: #211C6A;
-
     height: 70px;
     padding-top: 10px;
-
-    /*border-radius: 25px;
-    border-width: thick;
-    border-style: double;
-    border-color: #59b5c3;
-    background-color: #59b5c37a;
-    */
     margin-top: 50px;
+
+    
+    color: rgb(252, 214, 49);
+    font-family: Lato, sans-serif;
+    font-size: 35px;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 15px;
+    width: 700px;
+    align-self: center;
 }
 
 /*SEGUNDO CONTEÚDO*/
@@ -264,9 +262,15 @@ main {
 
 .historia {
     text-align: center;
-    color: #211C6A;
+    color: rgb(252, 214, 49);
     font-family: Lato, sans-serif;
-    font-size: 30px;
+    font-size: 35px;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 15px;
+    width: 700px;
+    align-self: center;
+    
 }
 
 .segundo-conteudo-tres {
@@ -283,14 +287,21 @@ main {
 
 .curiosidades {
     text-align: center;
-    color: #211C6A;
+    color: rgb(252, 214, 49);
     font-family: Lato, sans-serif;
-    font-size: 30px;
+    font-size: 35px;
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 15px;
+    width: 600px;
+    align-self: center;
 }
 
 span {
-    color: #211C6A;
+    color: rgb(252, 214, 49);
     font-weight: bold;
+    font-style: oblique;
+    
 }
 
 .voce-sabia {
@@ -300,12 +311,17 @@ span {
     gap: 1rem;
     text-align: center;
     margin-bottom: 30px;
+    font-family: Lato, sans-serif;
+    font-size: 15px;
+    font-style: oblique;
+    
 }
 
 .texto-voce-sabia {
     display: flex;
     flex-direction: column;
     text-align: justify;
+    
 
 }
 
@@ -384,90 +400,135 @@ footer {
     gap: 5rem;
     font-size: 18px;
     font-weight: 400;
+    border-top: var(--border);;
 }
 
 .quem-somos p{
     width: 600px; 
+    color: rgb(0, 55, 156);
 }
 
 .quem-somos h3{
     font-weight: bold;
     color: rgb(241, 198, 7);
+    font-size: 20px;
+    font-style: oblique;
+    
 }
 
 .agradecimentos p{
     width: 400px; 
+    color: rgb(0, 55, 156);
+    font-size: 20px;
+    
 }
 
 .integrantes {
     width: 300px;
     text-decoration: none;
-    
-    font-weight:bold;
+    font-weight: bold;
     color: rgb(241, 198, 7);
+    font-size: 20px;
+    font-style: oblique;
 }
 
 .nome a{
     text-decoration: none;
-    color: #000;
-    
+    color: rgb(0, 55, 156);
+    font-size: 18px;
 }
 
 
 .parametros-imagem {
-    filter: drop-shadow(0 0 1rem rgb(112, 126, 136));
-
+    filter: drop-shadow(0 0 1rem rgb(154, 155, 126));
+    margin: auto;
 }
 
 .parametros {
-    max-width: 100%;
+    max-width: 1200px;
     text-align: justify;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
     align-items: center;
     margin: auto;
-    background-color: red;
 }
 
 .parametros h1 {
-    font-size: 20px;
     font-weight: bold;
-    padding: 1rem;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    
+    color: rgb(252, 214, 49);
+    font-family: Lato, sans-serif;
+    
+    background-color: #000000;
+    border-radius: 20px;
+    padding: 15px;
+    width: 350px;
+    align-self: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .primeiro-parametros{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    max-width: 1100px;
+    max-width: 100%;
+    width: 1200px;
+    font-family: Lato, sans-serif;
+    font-size: 23px;
+    
+    
 }
 
+
+
 .parametros-titulo {
-    max-width: 600px;
+    max-width: 500px;
     padding-bottom: 4rem;
     padding-right: 4rem;
+    font-size: 20px;
+    font-family: Lato, sans-serif;
+
 }
 
 .parametros-lista {
-    background-color: #68f7c0;
-    max-height: 180px;
-    border-width: 20px;
+    background-color: #039edb;
+    padding: 20px;
+    height: 280px;
+    color: rgb(255, 218, 51);
+    border-width: 5px;
+    border-radius: 20px;
     border-style: solid;
-    border-color: #68f7c0;
+    border-color: rgb(255, 218, 51);
+    font-family: Lato, sans-serif;
+    
 }
 
 .segundo-parametros-texto {
     display: flex;
     flex-direction: column;
-    max-width: 550px;
+    align-self: center;
+    max-width: 100%;
+    font-size: 18px;
+    
+    
 }
 
 .segundo-parametros {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    max-width: 1100px;
+    max-width: 100%px;
+
 }
+
+.segundo-parametros p{
+    font-size: 18px;
+    font-family: Lato, sans-serif;
+}
+
 
 .imagem-um {
     filter: drop-shadow(0 0 1rem rgb(119, 142, 182));

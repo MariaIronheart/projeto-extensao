@@ -53,6 +53,11 @@ table {
     --border: 0.18rem solid rgba(241, 198, 7, 0.712);
     --border2: 0.1rem solid rgb(205, 201, 62);
     font-size: 18px;
+    --fundo: #fff5da;
+    --azul: #6DC5D1;
+    --card: #FEB941;
+    --bege: #FDE49E;
+    --card-texto: #fff2a7;
 }
 
 * {
@@ -132,7 +137,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*background-color: #317b86a9;*/
+    /*background-color: #fff5da;*/
+    background-color: var(--fundo);
 }
 
 
@@ -286,7 +292,7 @@ main {
 }
 
 span {
-    color: rgb(252, 214, 49);
+    color: var(--azul);
     font-weight: bold;
     font-style: oblique;
     
@@ -302,6 +308,14 @@ span {
     font-family: Lato, sans-serif;
     font-size: 15px;
     font-style: oblique;
+    background-color: var(--card);
+    padding: 2rem;
+    border-radius: 0.5rem;
+    
+}
+
+.imagem-mao {
+    padding: 1rem;
     
 }
 
@@ -484,14 +498,14 @@ footer {
 }
 
 .parametros-lista {
-    background-color: #039edb;
+    background-color: var(--azul);
     padding: 20px;
     height: 280px;
-    color: rgb(255, 218, 51);
+    color: #fff2a7;
     border-width: 5px;
     border-radius: 20px;
     border-style: solid;
-    border-color: rgb(255, 218, 51);
+    border-color: #fff2a7;
     font-family: Lato, sans-serif;
     
 }
@@ -521,11 +535,11 @@ footer {
 
 
 .imagem-um {
-    filter: drop-shadow(0 0 1rem rgb(119, 142, 182));
+    filter: drop-shadow(0 0 1rem rgb(182, 173, 119));
     padding-right: 1rem;
 }
 
 .imagem-dois {
-    filter: drop-shadow(0 0 1rem rgb(119, 182, 181));
+    filter: drop-shadow(0 0 1rem rgb(182, 173, 119));
     padding-left: 1rem;
 }

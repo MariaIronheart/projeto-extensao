@@ -138,11 +138,14 @@ footer {
     font-weight: 400;
     background-color: #59B4C3;
     border-top: var(--border);;
+    font-family: Georgia, serif;
 }
 
 .quem-somos p{
     width: 600px; 
     color: rgb(0, 55, 156);
+    font-family: Georgia, serif;
+    font-size: 18px;
 }
 
 .quem-somos h3{
@@ -151,15 +154,18 @@ footer {
     color: rgb(255, 218, 51);
     font-size: 20px;
     font-style: oblique;
+    font-family: Georgia, serif;
 }
 
 .agradecimentos p{
     width: 400px; 
     color: rgb(0, 55, 156);
-    font-size: 20px; 
+    font-size: 18px;
+    font-family: Georgia, serif;
 }
 
 .integrantes {
+    font-family: Georgia, serif;
     text-decoration: none;
     font-weight: bold;
     color: rgb(255, 218, 51);
@@ -171,4 +177,5 @@ footer {
     text-decoration: none;
     color: rgb(0, 55, 156);
     font-size: 18px;
+    font-family: Georgia, serif;
 }

@@ -3,13 +3,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Varela+Round&display=swap');
 
 
-/*STYLE PADRÃO*/
-
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -55,11 +48,6 @@ table {
 }   
 
 /*-------------------RESET CSS ----------------------*/
-
-
-
-
-
 
 :root{
     --border: 0.18rem solid rgba(241, 198, 7, 0.712);
@@ -144,7 +132,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #317b86a9;
+    /*background-color: #317b86a9;*/
 }
 
 
@@ -400,6 +388,7 @@ footer {
     gap: 5rem;
     font-size: 18px;
     font-weight: 400;
+    background-color: #59B4C3;
     border-top: var(--border);;
 }
 
@@ -409,8 +398,9 @@ footer {
 }
 
 .quem-somos h3{
+    text-decoration: none;
     font-weight: bold;
-    color: rgb(241, 198, 7);
+    color: rgb(255, 218, 51);
     font-size: 20px;
     font-style: oblique;
     
@@ -424,10 +414,10 @@ footer {
 }
 
 .integrantes {
-    width: 300px;
+    
     text-decoration: none;
     font-weight: bold;
-    color: rgb(241, 198, 7);
+    color: rgb(255, 218, 51);
     font-size: 20px;
     font-style: oblique;
 }
@@ -458,7 +448,7 @@ footer {
     font-family: Lato, sans-serif;
     font-size: 20px;
     
-    color: rgb(252, 214, 49);
+    color: rgb(205, 201, 62);
     font-family: Lato, sans-serif;
     
     background-color: #000000;

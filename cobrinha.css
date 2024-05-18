@@ -250,7 +250,7 @@ main {
 
 .segundo-conteudo-texto {
     padding: 1rem;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 400;
     text-align: justify;
     font-family: Cambria, sans-serif;
@@ -305,7 +305,7 @@ span {
     color: #1a00aa;
     font-weight: bold;
     font-family: Cambria, sans-serif;   
-    font-size: 22px;
+    font-size: 18px;
 }
 
 .voce-sabia {
@@ -316,7 +316,7 @@ span {
     text-align: center;
     margin-bottom: 30px;
     font-family: Lato, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
     font-style: oblique;
     background-color: var(--card);
     padding: 2rem;

@@ -480,12 +480,8 @@ footer {
 }
 
 .parametros h1 {
-<<<<<<< HEAD
     font-weight: 700;
     font-family: Cambria, sans-serif;
-=======
-    font-weight: bold;
->>>>>>> fc958c8513cfd9ef7feb9444f6b24ab508c2eda4
     font-size: 20px;
     background-color: var(--azul);
     border-radius: 20px;

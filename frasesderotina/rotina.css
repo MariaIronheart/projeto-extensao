@@ -7,7 +7,15 @@
     --border: 0.18rem solid rgba(241, 198, 7, 0.712);
     --border2: 0.1rem solid rgb(205, 201, 62);
     font-size: 18px;
+    --fundo: #fff5da;
+    --azul: #6DC5D1;
+    --azul2: #01b2f8;
+    --card: #FEB941;
+    --bege: #FDE49E;
+    --card-texto: #fff2a7;
+    --span: #1a00aa;
 }
+
 
 * {
     padding: 0;
@@ -59,37 +67,30 @@ header{
 }
 
 body {
-    /*background: linear-gradient(70deg, #59B4C3,#74E291,#EFF396);
-    background-size: 300% 300%;
-    animation: colors 15s ease infinite;*/
-    background-color: white;
+
+    background-color: var(--fundo);
 }
 
-@keyframes colors {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
-}
 
 h1 {
-    padding: 35px;
-    color: #0847bd;
-    font-size: 30px;
-    font-family: Valera Round, sans-serif;
+    justify-items: center;
+    margin: auto;
+    gap: 2rem;
     text-align: center;
+    height: 100px;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    color: var(--card-texto);
+    font-family: Lato, sans-serif;
+    font-size: 30px;
+    background-color: #59B4C3;
+    border-radius: 15px;
+    
+    width: 1200px;
+    align-self: center;
 }
 
-.menu {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-}
 
 /* STYLE PADRÃO FIM */ 
 
@@ -102,17 +103,15 @@ h1 {
     height: 500px;
     width: 900px;
     padding-top: 30px;
-    
-    
-    
 }
 
 .legenda{
-    
-    padding: 25px;
-    color: #003392;
-    font-size: 20px;
-    font-family: Valera Round, sans-serif;
+    width: 760px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    font-family: Lato, sans-serif;
     text-align: center;
     font-weight: bold;
 }

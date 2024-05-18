@@ -6,7 +6,13 @@
 :root{
     --border: 0.18rem solid rgba(241, 198, 7, 0.712);
     --border2: 0.1rem solid rgb(205, 201, 62);
-    font-size: 18px;
+    --fundo: #fff5da;
+    --azul: #6DC5D1;
+    --azul2: #01b2f8;
+    --card: #FEB941;
+    --bege: #FDE49E;
+    --card-texto: #fff2a7;
+    --span: #1a00aa;
 }
 
 * {
@@ -62,7 +68,8 @@ body {
     /*background: linear-gradient(70deg, #59B4C3,#74E291,#EFF396);
     background-size: 300% 300%;
     animation: colors 15s ease infinite;*/
-    background-color: white;
+    background-color: var(--fundo);
+
 }
 
 @keyframes colors {
@@ -198,4 +205,12 @@ footer {
     color: rgb(0, 55, 156);
     font-size: 18px;
     font-family: Georgia, serif;
+}
+
+.video-numeros {
+    margin-top: 12px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }

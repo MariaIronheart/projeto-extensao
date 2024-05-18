@@ -94,6 +94,7 @@ body {
     background-size: 300% 300%;
     animation: colors 15s ease infinite;*/
     background-color: var(--fundo);
+    
 
 }
 
@@ -142,6 +143,7 @@ h1 {
     max-width: 2000px;
     text-align: justify;
     margin-left: auto;
+    
 }
 
 .texto {
@@ -171,7 +173,7 @@ footer {
     background-color: #59B4C3;
     padding: 20px;
     justify-content: center;
-    font-family: Valera Round, sans-serif;
+    
 }
 
 .rodape {
@@ -186,14 +188,15 @@ footer {
     font-weight: 400;
     background-color: #59B4C3;
     border-top: var(--border);
-    font-family: Georgia, serif;
+    font-family: Cambria, sans-serif;
 }
 
 .quem-somos p{
     width: 600px; 
     color: rgb(0, 55, 156);
-    font-family: Georgia, serif;
+    font-family: Cambria, sans-serif;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .quem-somos h3{
@@ -201,31 +204,40 @@ footer {
     font-weight: bold;
     color: rgb(255, 218, 51);
     font-size: 20px;
-    font-style: oblique;
-    font-family: Georgia, serif;
+    
+    font-family: Cambria, sans-serif;
 }
 
 .agradecimentos p{
     width: 400px; 
     color: rgb(0, 55, 156);
     font-size: 18px;
-    font-family: Georgia, serif;
+    font-family: Cambria, sans-serif;
+    font-weight: bold;
 }
 
 .integrantes {
-    font-family: Georgia, serif;
+    font-family: Cambria, sans-serif;
     text-decoration: none;
     font-weight: bold;
     color: rgb(255, 218, 51);
     font-size: 20px;
-    font-style: oblique;
+    
 }
 
 .nome a{
     text-decoration: none;
     color: rgb(0, 55, 156);
     font-size: 18px;
-    font-family: Georgia, serif;
+    font-family: Cambria, sans-serif;
+}
+
+.agora-vamos{
+    width: 455px;
+    font-weight: 900;
+    text-align: center;
+    font-size: 22px;
+    
 }
 
 .video-numeros {       

@@ -60,6 +60,7 @@ table {
     --bege: #FDE49E;
     --card-texto: #fff2a7;
     --span: #1a00aa;
+    
 }
 
 * {
@@ -133,6 +134,8 @@ header{
 /*--------------------------------*/
 body {
     background-color: white;
+    font-family: Cambria, sans-serif;
+    
 }
 
 main {
@@ -141,6 +144,8 @@ main {
     align-items: center;
     /*background-color: #fff5da;*/
     background-color: var(--fundo);
+    font-family: Lato, sans-serif;
+    
 }
 
 
@@ -157,9 +162,7 @@ main {
     flex-direction: row;
     justify-content: space-around;
     gap: 13rem;
-    
     align-self: first baseline;
-    
     margin: auto;
 
 }
@@ -182,10 +185,7 @@ main {
 .primeiro-conteudo-titulo h1 {
     color: #ffffff;
     font-size: 70px;
-    
     text-align: center;
-    
-    
     padding-top: 50px;
     padding-bottom: 10px;
 
@@ -199,20 +199,28 @@ main {
     
 }
 
+.vamos-saber h1{
+    font-weight: 900;
+}
+
+.curiosidades{
+    font-weight: 900;
+}
+
+.historia{
+    font-weight: 900;
+}
+
 .vamos-saber {
-    
     justify-items: center;
     margin: auto;
-    
     gap: 2rem;
     text-align: center;
     height: 70px;
     padding-top: 10px;
     margin-top: 50px;
-
-    
     color: var(--fundo);
-    font-family: Lato, sans-serif;
+    font-family: Cambria, sans-serif;
     font-size: 35px;
     background-color: var(--azul);
     border-radius: 20px;
@@ -245,6 +253,7 @@ main {
     font-size: 18px;
     font-weight: 400;
     text-align: justify;
+    font-family: Cambria, sans-serif;
 }
 
 .segundo-conteudo-dois {
@@ -257,7 +266,7 @@ main {
 .historia {
     text-align: center;
     color: var(--fundo);
-    font-family: Lato, sans-serif;
+    font-family: Cambria, sans-serif;
     font-size: 35px;
     background-color: var(--azul);
     border-radius: 20px;
@@ -276,13 +285,14 @@ main {
     font-size: 18px;
     font-weight: 400;
     text-align: justify;
+    font-family: Cambria, sans-serif;
 
 }
 
 .curiosidades {
     text-align: center;
     color: var(--fundo);
-    font-family: Lato, sans-serif;
+    font-family: Cambria, sans-serif;
     font-size: 35px;
     background-color: var(--azul);
     border-radius: 20px;
@@ -294,8 +304,8 @@ main {
 span {
     color: #1a00aa;
     font-weight: bold;
-    font-style: oblique;
-    
+    font-family: Cambria, sans-serif;   
+    font-size: 22px;
 }
 
 .voce-sabia {
@@ -317,6 +327,7 @@ span {
 .voce-sabia-titulo {
     font-weight: bold;
     font-size: 30px;
+    font-family: Lato, sans-serif;
 }
 
 .imagem-mao {
@@ -328,6 +339,7 @@ span {
     display: flex;
     flex-direction: column;
     text-align: justify;
+    
     
 
 }
@@ -348,13 +360,13 @@ span {
     cursor: pointer;
     transition: 800ms ease all;
     outline: none;
-    ;
-    font-family: 'Lucida Sans', sans-serif;
+    font-family: Cambria, sans-serif;
 
 }
 
 .texto {
     font-size: 25px;
+    
 }
 
 button:hover {
@@ -464,17 +476,17 @@ footer {
     padding-bottom: 5rem;
     align-items: center;
     margin: auto;
+    font-family: Cambria, sans-serif;
 }
 
 .parametros h1 {
-    font-weight: bold;
-    
+    font-weight: 700;
+    font-family: Cambria, sans-serif;
     font-size: 20px;
-   
     background-color: var(--azul);
     border-radius: 20px;
     padding: 15px;
-    width: 305px;
+    width: 320px;
     align-self: center;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -486,8 +498,8 @@ footer {
     justify-content: space-between;
     max-width: 100%;
     width: 1200px;
-    font-family: Lato, sans-serif;
-    font-size: 23px;
+    font-family: Cambria, sans-serif;
+    font-size: 22px;
     
     
 }
@@ -498,10 +510,12 @@ footer {
     max-width: 500px;
     padding-bottom: 4rem;
     padding-right: 4rem;
-    font-size: 20px;
-    font-family: Lato, sans-serif;
-
+    font-size: 22px;
+    font-family: Cambria, sans-serif;
+    
 }
+
+
 
 .parametros-lista {
     background-color: var(--azul2);
@@ -512,7 +526,8 @@ footer {
     border-radius: 20px;
     border-style: solid;
     border-color: #fff2a7;
-    font-family: Lato, sans-serif;
+    font-family: Cambria, sans-serif;
+    font-size: 25px;
     
 }
 
@@ -521,9 +536,10 @@ footer {
     flex-direction: row;
     align-self: center;
     max-width: 100%;
-    font-size: 18px;
+    font-size: 15px;
     gap: 5rem;
     
+    font-family: Cambria, sans-serif;
     
 }
 
@@ -533,12 +549,16 @@ footer {
     justify-content: space-between;
     max-width: 100%px;
     padding-top: 2rem;
+    font-family: Cambria, sans-serif;
+    
 
 }
 
 .segundo-parametros p{
-    font-size: 18px;
-    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-family: Cambria, sans-serif;
+    
+    
 }
 
 

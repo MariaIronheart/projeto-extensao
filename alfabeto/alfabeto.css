@@ -6,6 +6,7 @@
 :root{
     --border: 0.18rem solid rgba(241, 198, 7, 0.712);
     --border2: 0.1rem solid rgb(205, 201, 62);
+    font-size: 18px;
     --fundo: #fff5da;
     --azul: #6DC5D1;
     --azul2: #01b2f8;
@@ -207,10 +208,13 @@ footer {
     font-family: Georgia, serif;
 }
 
-.video-numeros {
-    margin-top: 12px;
-    justify-content: center;
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.video-numeros {       
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 500px;
+    max-width: 2000px;
+    margin-left: auto;
+   
 }

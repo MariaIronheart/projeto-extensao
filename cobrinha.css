@@ -55,6 +55,7 @@ table {
     font-size: 18px;
     --fundo: #fff5da;
     --azul: #6DC5D1;
+    --azul2: #01b2f8;
     --card: #FEB941;
     --bege: #FDE49E;
     --card-texto: #fff2a7;
@@ -194,9 +195,7 @@ main {
     font-size: 22px;
     font-weight: 400;
     text-align: center;
-    color: #fbff03;
     
-
 }
 
 .vamos-saber {
@@ -211,10 +210,10 @@ main {
     margin-top: 50px;
 
     
-    color: rgb(252, 214, 49);
+    color: var(--fundo);
     font-family: Lato, sans-serif;
     font-size: 35px;
-    background-color: #000000;
+    background-color: var(--azul);
     border-radius: 20px;
     padding: 15px;
     width: 700px;
@@ -256,10 +255,10 @@ main {
 
 .historia {
     text-align: center;
-    color: rgb(252, 214, 49);
+    color: var(--fundo);
     font-family: Lato, sans-serif;
     font-size: 35px;
-    background-color: #000000;
+    background-color: var(--azul);
     border-radius: 20px;
     padding: 15px;
     width: 700px;
@@ -281,10 +280,10 @@ main {
 
 .curiosidades {
     text-align: center;
-    color: rgb(252, 214, 49);
+    color: var(--fundo);
     font-family: Lato, sans-serif;
     font-size: 35px;
-    background-color: #000000;
+    background-color: var(--azul);
     border-radius: 20px;
     padding: 15px;
     width: 600px;
@@ -312,6 +311,11 @@ span {
     padding: 2rem;
     border-radius: 0.5rem;
     
+}
+
+.voce-sabia-titulo {
+    font-weight: bold   ;
+    font-size: 30px;
 }
 
 .imagem-mao {
@@ -448,7 +452,7 @@ footer {
 
 
 .parametros-imagem {
-    filter: drop-shadow(0 0 1rem rgb(154, 155, 126));
+    filter: drop-shadow(0 0 1rem rgb(182, 173, 119));
     margin: auto;
 }
 
@@ -466,10 +470,10 @@ footer {
     font-family: Lato, sans-serif;
     font-size: 20px;
     
-    color: rgb(205, 201, 62);
+    
     font-family: Lato, sans-serif;
     
-    background-color: #000000;
+    background-color: var(--azul);
     border-radius: 20px;
     padding: 15px;
     width: 350px;
@@ -502,7 +506,7 @@ footer {
 }
 
 .parametros-lista {
-    background-color: var(--azul);
+    background-color: var(--azul2);
     padding: 20px;
     height: 280px;
     color: #fff2a7;
@@ -516,10 +520,11 @@ footer {
 
 .segundo-parametros-texto {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-self: center;
     max-width: 100%;
     font-size: 18px;
+    gap: 5rem;
     
     
 }
@@ -529,6 +534,7 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     max-width: 100%px;
+    padding-top: 2rem;
 
 }
 

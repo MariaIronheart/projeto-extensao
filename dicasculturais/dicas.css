@@ -6,6 +6,13 @@
 :root{
     --border: 0.18rem solid rgba(241, 198, 7, 0.712);
     --border2: 0.1rem solid rgb(205, 201, 62);  
+    --fundo: #fff5da;
+    --azul: #6DC5D1;
+    --azul2: #01b2f8;
+    --card: #FEB941;
+    --bege: #FDE49E;
+    --card-texto: #fff2a7;
+    --span: #1a00aa;
 }
 
 * {
@@ -72,6 +79,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--fundo);
 }
 
 
@@ -89,10 +97,14 @@ main {
 }
 
 .apresentacao-dicas {
-    padding: 20px;  
+    padding: 20px;
+    margin-top: 2rem;
+    padding-top: 1rem;      
     text-align: center;
     font-size: 18px;
     width: 600px;
+    background-color: var(--card);
+    border-radius: 1rem;
 }
 
 .primeiro-filme{
@@ -140,8 +152,10 @@ main {
     justify-content: center;
     text-align: center;
     padding-top: 8px;
+    
 
 }
+
 
 /*-------------------------------------------------------*/
 
@@ -202,6 +216,7 @@ main {
 
 .outras-dicas h3 {
     margin-bottom: 2rem;
+    font-size: 25px;
 }
 
 .outras-imagens {

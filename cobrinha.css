@@ -59,6 +59,7 @@ table {
     --card: #FEB941;
     --bege: #FDE49E;
     --card-texto: #fff2a7;
+    --span: #1a00aa;
 }
 
 * {
@@ -291,7 +292,7 @@ main {
 }
 
 span {
-    color: var(--azul);
+    color: #1a00aa;
     font-weight: bold;
     font-style: oblique;
     
@@ -469,14 +470,11 @@ footer {
     font-weight: bold;
     font-family: Lato, sans-serif;
     font-size: 20px;
-    
-    
     font-family: Lato, sans-serif;
-    
     background-color: var(--azul);
     border-radius: 20px;
     padding: 15px;
-    width: 350px;
+    width: 305px;
     align-self: center;
     margin-top: 15px;
     margin-bottom: 15px;
